@@ -1,0 +1,26 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilosrim/tg-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "nodejs"
+  ],
+  "author": "ilosrim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilosrim/tg-bot/issues"
+  },
+  "homepage": "https://github.com/ilosrim/tg-bot#readme",
+  "devDependencies": {
+    "ssm-js": "^3.0.5"
+  }
+}
