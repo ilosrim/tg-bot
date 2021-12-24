@@ -4,7 +4,8 @@
   "description": "Telegram bot",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,11 @@
   },
   "homepage": "https://github.com/ilosrim/tg-bot#readme",
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "ssm-js": "^3.0.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.5.2"
   }
 }
