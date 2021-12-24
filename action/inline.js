@@ -11,7 +11,7 @@ bot.command('inline', ctx => {
   //   [Markup.keyboard('Tester', 'inline')]
   // ])
 
-  ctx.telegram.sendMessage(ctx.chat.id, "Test btn", {
+  ctx.telegram.sendMessage(ctx.chat.id, "Testing button", {
     reply_markup: {
       inline_keyboard: [
         [{
