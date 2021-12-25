@@ -26,6 +26,7 @@
     "ssm-js": "^3.0.5"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "dotenv": "^10.0.0",
     "telegraf": "^4.5.2"
   }
